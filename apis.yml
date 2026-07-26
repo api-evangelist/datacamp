@@ -1,7 +1,27 @@
 aid: datacamp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datacamp.png
 name: DataCamp
-description: DataCamp is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DataCamp is an online learning platform (DataCamp, Inc.) for building data and
+  AI skills through interactive, browser-based courses, guided projects,
+  skill/career tracks, assessments, and certifications across Python, R, SQL,
+  spreadsheets, Power BI, Tableau, Git, and generative AI. Learners write and run
+  real code in the browser with instant feedback. DataCamp for Business adds team
+  management, learning analytics, SSO/SAML, and user provisioning for
+  organizations upskilling their workforce. DataCamp does not publish a public
+  developer REST API; this profile is maintained as an API Evangelist network
+  company record. Individual plans are Basic (free), Premium, and Teams.
 url: https://raw.githubusercontent.com/api-evangelist/datacamp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Science
+- Education
+- E-Learning
+- Online Courses
+- Data Analytics
+- Python
+- R
+- SQL
+- EdTech
+- Upskilling
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,32 @@ maintainers:
 common:
 - type: Website
   url: https://datacamp.com/
+- type: Support
+  url: https://support.datacamp.com/
+- type: Blog
+  url: https://www.datacamp.com/blog
+- type: GitHubOrganization
+  url: https://github.com/datacamp
+- type: Pricing
+  url: https://www.datacamp.com/pricing
+- type: SignUp
+  url: https://www.datacamp.com/users/sign_up
+- type: TermsOfService
+  url: https://www.datacamp.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.datacamp.com/privacy-policy
+- type: Security
+  url: https://www.datacamp.com/security/responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: security/datacamp-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/datacamp-trust-center.yml
+- type: Compliance
+  url: https://trust.datacamp.com/
+- type: DomainSecurity
+  url: security/datacamp-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
